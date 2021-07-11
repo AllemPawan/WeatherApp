@@ -1,0 +1,52 @@
+body{
+	background-color: #00f2ff;
+	font-family: 'Lucida Console',Monospace;
+	text-align: center;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+	margin-top: 5px;
+	
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.head{
+	grid-area: header;
+	text-align: center;
+}
+.WeatherForm{
+	grid-area: footer;
+}
+.card{
+	background-color:  #b0fbff;
+	margin: auto 80px;
+	border: 1px solid #b0fbff;
+	border-radius: 5px;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 50px 50px 50px 50px;
+	grid-template-rows: auto;
+	grid-template-areas:
+		"header header header header"
+		"footer footer footer footer";
+}
