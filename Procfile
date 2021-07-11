@@ -1,1 +1,1 @@
-web: node WeatherApp.js
+web: node app.js
