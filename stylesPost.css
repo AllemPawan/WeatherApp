@@ -1,0 +1,23 @@
+body{
+	background-color: #00f2ff;
+	font-family: 'Lucida Console',Monospace;
+	text-align: center;
+}
+.head{
+	grid-area: header;
+	margin-top:20px;
+}
+.Temperature{
+	grid-area: footer;
+}
+.card{
+	background-color:  #b0fbff;
+	margin: auto 240px;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 100px 100px 100px 100px;
+	grid-template-rows: auto;
+	grid-template-areas:
+		"header header header header"
+		"footer footer footer footer";
+}
